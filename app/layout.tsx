@@ -16,114 +16,35 @@ const geistMono = Geist_Mono({
 
 
 
-
 export const metadata: Metadata = {
 
   title:
     "LINGUA EUROPEAN | Batman Yabancı Dil Kursu",
 
-
   description:
-    "Batman'da İngilizce, Almanca, LGS ve YKS-DİL hazırlık eğitimleri. Goethe, Telc ve ÖSD sınavlarına yönelik profesyonel yabancı dil kursu.",
-
-
+    "Batman'da İngilizce, Almanca, LGS ve YKS-DİL hazırlık eğitimleri. Goethe, Telc ve ÖSD sınavlarına yönelik profesyonel yabancı dil kursları.",
 
   keywords: [
-
     "Batman yabancı dil kursu",
-
     "Batman İngilizce kursu",
-
     "Batman Almanca kursu",
-
-    "İngilizce kursu Batman",
-
-    "Almanca kursu Batman",
-
-    "LGS İngilizce hazırlık",
-
+    "LGS İngilizce",
     "YKS Dil hazırlık",
-
     "Goethe sınavı",
-
     "Telc sınavı",
-
     "ÖSD sınavı",
-
-    "LINGUA EUROPEAN",
-
   ],
 
 
+  verification: {
 
-
-  authors: [
-
-    {
-      name: "LINGUA EUROPEAN",
-    },
-
-  ],
-
-
-
-  creator:
-    "LINGUA EUROPEAN",
-
-
-
-  icons: {
-
-    icon: "/favicon.png",
-
-  },
-
-
-
-  openGraph: {
-
-
-    title:
-      "LINGUA EUROPEAN | Batman Yabancı Dil Kursu",
-
-
-
-    description:
-      "İngilizce, Almanca, LGS ve YKS-DİL eğitimlerinde profesyonel yabancı dil kursu.",
-
-
-
-    locale:
-      "tr_TR",
-
-
-
-    type:
-      "website",
-
-
-  },
-
-
-
-  robots: {
-
-
-    index: true,
-
-
-    follow: true,
-
+    google:
+      "4QkjWNpirWYPYZCzboLimYGGBZvrTqcNkxkX7tB3ilg",
 
   },
 
 
 };
-
-
-
-
-
 
 
 
@@ -141,22 +62,15 @@ export default function RootLayout({
   return (
 
     <html
-
       lang="tr"
-
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
-
     >
-
 
       <body>
 
-
         {children}
 
-
       </body>
-
 
     </html>
 
